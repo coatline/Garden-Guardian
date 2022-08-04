@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7e4a750952ea4d4aaf762cdb8d67843, type: 3}
+  m_Name: Uzi
+  m_EditorClassIdentifier: 
+  type: 0
+  toolType: 0
+  IsWeapon: 1
+  weapon:
+    attackOffset: {x: 0.21, y: 0.125}
+    attackForce: 10
+    attackCount: 1
+    knockBack: 0
+    spread: 20
+    damage: 2
+    gun:
+      muzzleFlashAlpha: 1
+      muzzleFlashSpeed: 15
+      muzzleFlashSize: 1.2
+      muzzleFlash: 1
+    projectilePrefab: {fileID: 8621276841745497203, guid: fbd9a89e87b667d42b89e8787b599047, type: 3}
+    projectileScale: {x: 1, y: 1}
+    burst: 0
+    attacksPerBurst: 0
+    timeBetweenAttacks: 0
+    parellelBullets: 0
+    attackSpacing: 0.3
+  sprite: {fileID: 21300000, guid: ed63b45f8f71c0344ac98b2723ae4a91, type: 3}
+  soundOnUse: {fileID: 11400000, guid: 48790cc8e42a01043bdb05bfd58383f2, type: 2}
+  structure: {fileID: 0}
+  description: DRRRRRRRRRRRRRRRRRRR
+  autoUse: 1
+  useRate: 0.02
+  maxStack: 1
+  healAmount: 0
+  recoilAmount: 0.15
+  recoilRecoveryDelay: 0
+  recoilRecoverySpeed: 10

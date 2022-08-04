@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7e4a750952ea4d4aaf762cdb8d67843, type: 3}
+  m_Name: Hoe
+  m_EditorClassIdentifier: 
+  type: 3
+  toolType: 1
+  IsWeapon: 0
+  weapon:
+    attackOffset: {x: 0, y: 0}
+    attackForce: 500
+    attackCount: 1
+    knockBack: 1
+    spread: 1
+    damage: 1
+    gun:
+      muzzleFlashAlpha: 0
+      muzzleFlashSpeed: 0
+      muzzleFlashSize: 0
+      muzzleFlash: 0
+    projectilePrefab: {fileID: 0}
+    projectileScale: {x: 0, y: 0}
+    burst: 0
+    attacksPerBurst: 0
+    timeBetweenAttacks: 0
+    parellelBullets: 0
+    attackSpacing: 0.3
+  sprite: {fileID: 21300000, guid: 632e6694a4a6ad140835cda692fe7a57, type: 3}
+  soundOnUse: {fileID: 11400000, guid: 8d869e4db8873dd4090709465ec738fd, type: 2}
+  structure: {fileID: 0}
+  description: ya mum lol
+  autoUse: 0
+  useRate: 0.15
+  maxStack: 1
+  healAmount: 0
+  recoilAmount: -0.2
+  recoilRecoveryDelay: 0.05
+  recoilRecoverySpeed: 15

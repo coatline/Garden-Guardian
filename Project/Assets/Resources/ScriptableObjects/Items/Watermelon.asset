@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7e4a750952ea4d4aaf762cdb8d67843, type: 3}
+  m_Name: Watermelon
+  m_EditorClassIdentifier: 
+  type: 6
+  toolType: 0
+  IsWeapon: 0
+  weapon:
+    attackOffset: {x: 0, y: 0}
+    attackForce: 0
+    attackCount: 0
+    knockBack: 0
+    spread: 0
+    damage: 0
+    gun:
+      muzzleFlashAlpha: 0
+      muzzleFlashSpeed: 0
+      muzzleFlashSize: 0
+      muzzleFlash: 0
+    projectilePrefab: {fileID: 0}
+    projectileScale: {x: 0, y: 0}
+    burst: 0
+    attacksPerBurst: 0
+    timeBetweenAttacks: 0
+    parellelBullets: 0
+    attackSpacing: 0.3
+  sprite: {fileID: 21300000, guid: 0f6712c999c46f144a8de6c16951db74, type: 3}
+  soundOnUse: {fileID: 0}
+  structure: {fileID: 0}
+  description: YUM YUM MY FAVORITE FRUIT
+  autoUse: 0
+  useRate: 0
+  maxStack: 999
+  healAmount: 0
+  recoilAmount: 0
+  recoilRecoveryDelay: 0
+  recoilRecoverySpeed: 0

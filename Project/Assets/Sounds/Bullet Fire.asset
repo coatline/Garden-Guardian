@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17c93115e39b0aa4aa8d6ca1c7f89c5d, type: 3}
+  m_Name: Bullet Fire
+  m_EditorClassIdentifier: 
+  sound:
+    clips:
+    - {fileID: 8300000, guid: 560a8c5f7532ce24f8e4c37ae09c79fc, type: 3}
+    - {fileID: 8300000, guid: a95e8cfb4c474cc4a8e87cf28310c498, type: 3}
+    - {fileID: 8300000, guid: 4c59a465d1a5e9a4fbb13229aeff596a, type: 3}
+    - {fileID: 8300000, guid: 9cd10f9b4dbce2742be0a5bdd05ba312, type: 3}
+    - {fileID: 8300000, guid: 13c5732dcd79bce47926c9a2daa5babd, type: 3}

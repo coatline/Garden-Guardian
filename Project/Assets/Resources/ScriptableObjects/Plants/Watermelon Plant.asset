@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb25c7860547a854a94cb5a2b959bd29, type: 3}
+  m_Name: Watermelon Plant
+  m_EditorClassIdentifier: 
+  Inventory: 0
+  slotCount: 0
+  canPlantOn: 0
+  properties:
+    damagedSprites: []
+    prefab: {fileID: 0}
+    dropPool:
+      pool: []
+      dropCountRange: {x: 0, y: 0}
+    tools: 
+    hitPoints: 1
+  growTime: 15
+  requiresTilledSoil: 1
+  growthProperties:
+  - damagedSprites:
+    - {fileID: 678130780, guid: 7072f7a3b63f69e4dbebce87757b4235, type: 3}
+    prefab: {fileID: 5199527026803727845, guid: 06dc57afbba9e1245a49fa99ee59ea3e, type: 3}
+    dropPool:
+      pool:
+      - countPerDrop: {x: 1, y: 1}
+        requiredDrops: 1
+        spawnWeight: 1
+        item: {fileID: 11400000, guid: 550fc2bda564a7f4fbcfd91efc7133a1, type: 2}
+      dropCountRange: {x: 1, y: 1}
+    tools: 
+    hitPoints: 10
+  - damagedSprites:
+    - {fileID: 1993320902, guid: 7072f7a3b63f69e4dbebce87757b4235, type: 3}
+    prefab: {fileID: 0}
+    dropPool:
+      pool:
+      - countPerDrop: {x: 1, y: 1}
+        requiredDrops: 1
+        spawnWeight: 1
+        item: {fileID: 11400000, guid: 550fc2bda564a7f4fbcfd91efc7133a1, type: 2}
+      dropCountRange: {x: 1, y: 1}
+    tools: 
+    hitPoints: 10
+  reproduces: 0
+  produceTime: 20
+  matureProperties:
+  - damagedSprites:
+    - {fileID: 571690483, guid: 7072f7a3b63f69e4dbebce87757b4235, type: 3}
+    prefab: {fileID: 0}
+    dropPool:
+      pool:
+      - countPerDrop: {x: 1, y: 1}
+        requiredDrops: 1
+        spawnWeight: 1
+        item: {fileID: 11400000, guid: 550fc2bda564a7f4fbcfd91efc7133a1, type: 2}
+      dropCountRange: {x: 1, y: 1}
+    tools: 
+    hitPoints: 10
+  - damagedSprites:
+    - {fileID: 1934596390, guid: 7072f7a3b63f69e4dbebce87757b4235, type: 3}
+    prefab: {fileID: 0}
+    dropPool:
+      pool:
+      - countPerDrop: {x: 1, y: 1}
+        requiredDrops: 0
+        spawnWeight: 10
+        item: {fileID: 11400000, guid: 550fc2bda564a7f4fbcfd91efc7133a1, type: 2}
+      - countPerDrop: {x: 1, y: 1}
+        requiredDrops: 1
+        spawnWeight: 1
+        item: {fileID: 11400000, guid: 7674dc60a31086e4c850fa9c19c32464, type: 2}
+      dropCountRange: {x: 2, y: 2}
+    tools: 
+    hitPoints: 10

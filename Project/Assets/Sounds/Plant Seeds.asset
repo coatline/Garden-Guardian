@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17c93115e39b0aa4aa8d6ca1c7f89c5d, type: 3}
+  m_Name: Plant Seeds
+  m_EditorClassIdentifier: 
+  sound:
+    clips:
+    - {fileID: 8300000, guid: 6313dc3958ce5a8418c607c3792bc3f4, type: 3}
+    - {fileID: 8300000, guid: a162168f2e9d41e4492d0b5274cd1eda, type: 3}
+    - {fileID: 8300000, guid: a15ab1a4442a5af438afa553f4c769b1, type: 3}
+    - {fileID: 8300000, guid: 2717d61b4029d1449b2bd869fb792af8, type: 3}
+    - {fileID: 8300000, guid: d1bfb5e1c54b4d4438c69e1e10e0dbfd, type: 3}
+    - {fileID: 8300000, guid: 47b47d0c8b6236241baf61e30b66e2b1, type: 3}
